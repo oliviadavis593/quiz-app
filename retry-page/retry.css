@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*================*/
+    /*logo image*/
+/*================*/
+
+#logo-image img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000; /*Change to white later*/
+    margin-left: 25%;
+}
+
+/*========================*/
+    /*score section*/
+/*=======================*/
+
+.total-score {
+    border: 1px solid black; /*Change to white later*/
+    width: 600px;
+    height: 600px;
+}
+
+.total-score h1 {
+    border: 1px solid black; /*Change to white later*/
+    text-align: center;
+    margin-left: 25%;
+    display: inline-block;
+    width: 300px;
+}

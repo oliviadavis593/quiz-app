@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz App</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="questions.css">
+    </head>
+    <body>
+        <!--Logo Image-->
+            <div id="logo-image">
+                <img src="question-images/space-logo.png" alt="space logo">
+            </div>  
+
+            <section class="score-container">
+                <div class="overall-score">
+                    <p>Question: 0/7</p>
+                    <p>Score: 0/35</p>
+                </div>
+            </section>
+
+
+            <section class="question-set" role= "list-of-questions">
+                <div class="question-container">
+                    <div class="question">
+                        <h1>What is the closest planet to the sun?</h1>
+                    </div>
+                    <form name="quiz-form">
+                        <div id="question-box">
+                            <div class="box">
+                                <input type="radio" name="answer" value="a" id="a1" /> Earth <br />
+                                <input type="radio" name="answer" value="b" id="a2" /> Venus<br />
+                                <input type="radio" name="answer" value="c" id="a3" /> Mercury<br />
+                                <input type="radio" name="answer" value="d" id="a4" /> Mars <br />
+                            </div> 
+                            <button class="sumbit">Submit</button>
+                            <button class="next">Next</button>     
+                        </div>    
+                    </form>
+                </div>        
+            </section> 
+    </body>
+</html>
+

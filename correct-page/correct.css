@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*================*/
+    /*logo image*/
+/*================*/
+
+#logo-image img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000; /*Change to white later*/
+    margin-left: 25%;
+}
+
+/*========================*/
+    /*feedback section*/
+/*=======================*/
+
+.goodjob-gif  {
+    width: 400px;
+    height: 300px;
+}
+ 
+#feedback-page {
+    border: 1px solid black; /*Change to white later*/
+    width: 600px;
+    height: 600px;
+}

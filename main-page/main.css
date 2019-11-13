@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   /*background: url(img/space-background.jpg) no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*================*/
+    /*logo image*/
+/*================*/
+
+#logo-image img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000; /*Change to white later*/
+    margin-left: 25%;
+}
+
+/*=====================*/
+    /*Title*/
+/*======================*/
+
+#start-title {
+    border: 1px solid black;
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+
+/*=====================*/
+    /*Main Container*/
+/*======================*/
+
+.main-container {
+    border: 1px solid #000; /*Change to white later*/
+    width: 600px;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.main-button {
+    
+    width: 150px;
+    height: 55px;
+}
